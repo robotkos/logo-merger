@@ -1,0 +1,31 @@
+{
+    "name": "robotkos/logo-merger",
+    "description": "Common library with different helpers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "serhii",
+            "email": "robotkos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2",
+        "gumlet/php-image-resize": "^1.9",
+        "arrilot/dotenv-php": "^2.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "google/cloud-vision": "^1.0",
+        "ext-gd": "*"
+    },
+  "require-dev": {
+    "symfony/var-dumper": "^4.4"
+  },
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Markify\\": "src/"
+    }
+  }
+}
